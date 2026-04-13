@@ -1,6 +1,6 @@
-from sqlalchemy import create_engine
-from sqlalchemy.ext.delcarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine # type: ignore
+from sqlalchemy.ext.delcarative import declarative_base # type: ignore
+from sqlalchemy.orm import sessionmaker # type: ignore
 
 DATABASE_URL = "postgresql://:postgres:admin@localhost:5432/ip_app"
 
